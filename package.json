@@ -1,7 +1,7 @@
 {
-  "name": "mono-bw",
-  "displayName": "Mono BW",
-  "description": "Pure black & white theme tuned for TS/JS/JSX/TSX, JSON and .env",
+  "name": "builtt-dark-theme",
+  "displayName": "Builtt Dark Theme",
+  "description": "Earthy dark theme on OLED black — brick, gold, sage and ash. Tuned for TS/JS/JSX/TSX, JSON and .env",
   "publisher": "wayz9",
   "version": "0.1.0",
   "license": "MIT",
@@ -16,7 +16,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "Mono BW",
+        "label": "Builtt Dark",
         "uiTheme": "vs-dark",
         "path": "./themes/mono-bw-color-theme.json"
       }

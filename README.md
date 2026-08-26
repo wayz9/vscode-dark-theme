@@ -1,6 +1,6 @@
-# Mono BW
+# Builtt Dark Theme
 
-A dark VSCode theme built for OLED. Near-black surfaces, a small earthy palette, no italics, no bolds.
+A dark VSCode theme built for OLED. Near-black surfaces, a small earthy palette — brick, gold, sage, ash — no italics, no bolds.
 
 Tuned for TypeScript, JavaScript, JSX/TSX, JSON and `.env` files.
 
@@ -27,5 +27,5 @@ Tuned for TypeScript, JavaScript, JSX/TSX, JSON and `.env` files.
 From the Marketplace, or grab the `.vsix` from releases:
 
 ```
-code --install-extension mono-bw-<version>.vsix
+code --install-extension builtt-dark-theme-<version>.vsix
 ```
