@@ -1,0 +1,14 @@
+{
+  "scopeName": "mono-bw.case-injection",
+  "injectionSelector": "L:source.ts -comment -string, L:source.tsx -comment -string, L:source.js -comment -string, L:source.jsx -comment -string",
+  "patterns": [
+    {
+      "match": "\\b([A-Z][A-Za-z0-9_$]*)(?=\\s*\\()",
+      "name": "entity.name.function.pascalcase.monobw"
+    },
+    {
+      "match": "\\bas\\b(?=\\s*(\\?\\?|\\?\\.|&&|\\|\\||===|==|[).,;:\\]}]|$))",
+      "name": "variable.other.contextual-as.monobw"
+    }
+  ]
+}

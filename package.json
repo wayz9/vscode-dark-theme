@@ -1,0 +1,32 @@
+{
+  "name": "mono-bw",
+  "displayName": "Mono BW",
+  "description": "Pure black & white theme tuned for TS/JS/JSX/TSX, JSON and .env",
+  "publisher": "wayz9",
+  "version": "0.1.0",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wayz9/vscode-dark-theme"
+  },
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": ["Themes"],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Mono BW",
+        "uiTheme": "vs-dark",
+        "path": "./themes/mono-bw-color-theme.json"
+      }
+    ],
+    "grammars": [
+      {
+        "scopeName": "mono-bw.case-injection",
+        "path": "./syntaxes/case-injection.json",
+        "injectTo": ["source.ts", "source.tsx", "source.js", "source.jsx"]
+      }
+    ]
+  }
+}
