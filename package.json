@@ -1,9 +1,9 @@
 {
   "name": "builtt-dark-theme",
   "displayName": "Builtt Dark Theme",
-  "description": "Earthy dark theme on OLED black — brick, gold, sage and ash. Tuned for TS/JS/JSX/TSX, JSON and .env",
+  "description": "Earthy dark theme on stable charcoal: lavender, gold, sage, teal and blue. Tuned for TS/JS/JSX/TSX, JSON, .env and Markdown",
   "publisher": "wayz9",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "license": "MIT",
   "repository": {
     "type": "git",
